@@ -1,9 +1,3 @@
 'use strict';
-
-class Thing {
-  constructor() {
-    this.n = 4;
-  }
-}
-
+class Thing {}
 module.exports = { Thing };
