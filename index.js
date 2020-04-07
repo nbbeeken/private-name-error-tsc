@@ -1,5 +1,5 @@
 "use strict";
 
-const { Thing } = require("./mod/thing");
+const Thing = require("./thing");
 
 module.exports = { Thing };

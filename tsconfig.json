@@ -3,14 +3,18 @@
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "declarationDir": "types",
+    "outDir": "build",
     "strict": false,
+
+    "composite": true,
 
     "target": "ES2018",
     "module": "commonJS",
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "lib": ["ES2018"]
   },
-  "include": ["index.js", "lib/**/*"]
+  "include": ["index.js", "thing.js"]
 }
