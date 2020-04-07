@@ -1,0 +1,19 @@
+{
+  "name": "private-name-error-tsc",
+  "version": "1.0.0",
+  "description": "Error in declaration generation",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbbeeken/private-name-error-tsc.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "next"
+  }
+}
