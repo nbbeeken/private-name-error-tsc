@@ -1,3 +1,3 @@
 "use strict";
-const Thing = require("./thing");
+const Thing = require("./thing").Thing;
 module.exports = { Thing };
